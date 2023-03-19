@@ -1,0 +1,56 @@
+/* style des champs d'entrée et de la zone de texte */
+input[type="text"],
+input[type="number"],
+input[type="img"],
+textarea {
+display: block;
+width: 100%;
+margin-bottom: 20px;
+padding: 10px;
+border: 2px solid #a23636;
+border-radius: 5px;
+box-sizing: border-box;
+font-size: 16px;
+font-family: Arial, sans-serif;
+}
+label {
+    display: block; /* afficher chaque étiquette sur une ligne différente */
+    margin-bottom: 10px;
+  }
+  
+.form {
+    margin: 10 auto; /* centrer le formulaire */
+    width: 400px;
+  }
+/* style du bouton de soumission */
+button[type="submit"] {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+font-family: inherit;
+}
+
+/* style du bouton de soumission au survol */
+button[type="submit"]:hover {
+background-color: #3e8e41;
+}
+label {
+    display: block; /* afficher chaque étiquette sur une ligne différente */
+    margin-bottom: 10px;
+  }
+ .hind[type="submit"]{
+  background-color: #f10b0b;
+ }
+ .hind[type="submit"]:hover{
+  background-color: #bc0202;
+ }
+
+
+ .form-error{
+  margin: 0;
+  color: red;
+}
